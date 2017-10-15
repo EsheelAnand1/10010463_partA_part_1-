@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Airline login</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://bootswatch.com/cyborg/bootstrap.min.css">
+    <script>
+  
+    </script>
+    
 </head>
 <body>
 
@@ -21,12 +26,13 @@
         <!-- fieldsets -->
         <fieldset>
           <h2 class="fs-title">Create your account</h2>
-          <P>Name must be 8 characters</P>
+          <P>Name must be 8 or more characters</P>
          
           <input type="text" id="name" placeholder="Name" />
           <input type="password" id="pass" placeholder="Password" />
           <input type="password" id="cpass" placeholder="Confirm Password" />
-          <input type="submit" id="submit" value="Comfirm" />
+          <input class="btn btn-primary"  type="submit" id="submit" value="Comfirm" />
+          <p id="set"></p>
           <p id="checker"> </p>
           <p id= "ncheck"></p>
         </fieldset>

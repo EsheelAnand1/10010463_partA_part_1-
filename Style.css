@@ -2,17 +2,23 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 /*basic reset*/
-* {margin: 0; padding: 0;}
+/* * {margin: 0; padding: 0;}
 
 html {
-	height: 100%;
+	height: 100%; */
 	/*Image only BG fallback*/
 	
 	/*background = gradient + image pattern combo*/
-	background: 
-		linear-gradient(rgba(250, 9, 9, 0.6), rgba(0, 85, 212, 0.6));
+	/* background: 
+		linear-gradient(rgba(250, 9, 9, 0.6), rgba(0, 85, 212, 0.6),rgba(25, 212, 0, 0.6));
+} */
+html {
+	background-image: url(fc29672bb46722e404d8a4b3ae3016c0.jpg);
+	/* border-image-repeat: no-repeat;
+	background-attachment: scroll; */
+	background-size: cover;
+	
 }
-
 body {
 	font-family: montserrat, arial, verdana;
 }
